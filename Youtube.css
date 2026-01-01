@@ -11,30 +11,20 @@
 p{
     margin: 0;
 }
-.video-preview{
-    display: inline-block;
-    vertical-align: top;
-}
+
 .thumbnails{
-    width: 300px;
+    width: 100%;
 }
 .video-details{
     margin-top: 5px;
     display: grid;
     grid-template-columns: 50px 1fr;
 }
-.channel-picture{
-    width: 50px;
-    display: inline-block;
-    vertical-align: top;
-}
 .profile-picture{
     width: 40px;
     border-radius: 20px;
 }
 .video-info{
-    display: inline-block;
-    width: 250px;
     font-family: Roboto;
     font-weight: 500;
 }
