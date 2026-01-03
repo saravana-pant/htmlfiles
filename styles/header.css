@@ -3,6 +3,7 @@
     margin-bottom: 10px;
     justify-content: space-between;
     padding-left: 10px;
+    padding-right: 30px;
     position: fixed;
     background-color: white;
     left: 0;
@@ -19,12 +20,11 @@
 .section-left{
     display: flex;
     align-items: center;
-    
+    column-gap: 25px;
 }
 .hamburger-menu{
     height: 24px;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 20px;
     cursor: pointer;
 }
 .youtube-logo{
@@ -40,7 +40,7 @@
     margin-left: 70px;
     margin-right: 35px;
     align-items: center;
-    max-width: 450px;
+    max-width: 465px;
     
 }
 .search-bar{
@@ -89,7 +89,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
+    width: 182px;
     flex-shrink: 0;
 }
 .upload-icon{
