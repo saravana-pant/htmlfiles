@@ -1,24 +1,35 @@
 .header{
     display: flex;
-    margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-between;
     padding-left: 10px;
-    margin-right: 10px;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(211, 209, 209);
+    z-index: 1;
 }
 
 
 .section-left{
     display: flex;
     align-items: center;
+    
 }
 .hamburger-menu{
     height: 24px;
     margin-left: 10px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .youtube-logo{
     height: 20px;
+    cursor: pointer;
 }
 
 
@@ -58,7 +69,7 @@
     border-width: 1px;
     background-color: rgb(247, 247, 247);
     margin-left: -1px;
-    
+    cursor: pointer;
 }
 .search-icon-img{
     height: 24px;
@@ -70,6 +81,7 @@
     border:none;
     margin-left: 10px;
     background-color: rgba(240, 239, 239, 0.356);
+    cursor: pointer;
 }
 
 
@@ -82,16 +94,35 @@
 }
 .upload-icon{
    height: 24px;
+   cursor: pointer;
 }
 .youtube-apps{
     height: 24px;
+    cursor: pointer;
+}
+.bell{
+    position: relative;
+}
+.notifications{
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    font-size: 11px;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-family: Roboto;
+    padding: 2px 5px;
+    border-radius: 10px;
 }
 .bell-icon{
     height: 24px;
+    cursor: pointer;
+    
 }
 .profile-image{
     width: 30px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 

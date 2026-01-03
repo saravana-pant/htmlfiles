@@ -1,0 +1,45 @@
+.sidebar{
+    position: fixed;
+    width: 80px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    z-index: 1; 
+    text-align: center;
+}
+
+.sidebar-menu{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-menu:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+
+.Home-icon{
+    width: 24px;   
+}
+.Explore-icon{
+    width: 24px;  
+}
+.Subscription-icon{
+    width: 24px; 
+}
+.Originals-icon{
+    width: 24px;
+}
+.youtube-music-icon{
+    width: 24px;
+}
+.library-icon{
+    width: 24px;
+}
+.sidebar-txt{
+    font-size: 10px;
+}
