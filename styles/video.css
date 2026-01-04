@@ -4,6 +4,8 @@
 .thumbnail-row{
     position: relative;
     cursor: pointer;
+    min-width: 200px;
+    max-width: 300px;
 }
 .time{
     position: absolute;
